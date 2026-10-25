@@ -1,0 +1,38 @@
+# === Environnement Virtuel Python ===
+.venv/
+venv/
+ENV/
+env/
+育env/
+
+# === Cache Python ===
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# === Fichiers de Données Volumineux (Data Mining) ===
+# Bloque les fichiers lourds spécifiques que vous avez dans votre dossier
+era5land_algeria.nc
+era5_algeria_clean.csv
+dz.json
+
+# Règle générale pour éviter d'ajouter d'autres gros fichiers par erreur
+*.nc
+*.csv
+*.json
+*.xlsx
+*.gz
+*.zip
+
+# === Configuration des éditeurs (VS Code / PyCharm) ===
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# === Fichiers Système ===
+.DS_Store
+Thumbs.db
