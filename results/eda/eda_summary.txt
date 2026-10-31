@@ -1,0 +1,54 @@
+
+EXPLORATORY DATA ANALYSIS - ALGERIA ERA5-LAND
+================================================
+
+DATASET
+-------
+Observations: 198810
+Geographic cells: 1410
+Time range: 2015-01-01 00:00:00 to 2026-09-01 00:00:00
+Missing values: 0
+
+ANNUAL ANALYSIS
+---------------
+Complete years: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]
+Mean annual temperature calculated without partial years.
+
+SLHF / EVAPORATION
+------------------
+Pearson correlation: 1.000000
+Regression slope: 2500852422.3160
+
+PRECIPITATION
+-------------
+Exact zero precipitation: 0.00%
+Mean precipitation: 0.1818 mm
+Maximum precipitation: 11.2619 mm
+
+SEASONAL TEMPERATURE
+--------------------
+season
+Winter    13.34
+Spring    23.75
+Summer    33.44
+Autumn    24.42
+
+TEMPERATURE ANOMALIES
+---------------------
+Reference period: 2015-2025
+Descriptive linear trend: 0.1071 degC/year
+Equivalent: 1.071 degC/decade
+
+INTERPRETATION NOTES
+--------------------
+1. Temperature displays strong seasonality.
+2. Precipitation is highly skewed toward low values.
+3. SLHF and evaporation show strong redundancy.
+4. IQR outliers should not automatically be deleted.
+5. The trend is descriptive and requires statistical
+   validation before drawing climate conclusions.
+6. 2026 is incomplete and excluded from annual comparisons.
+
+NEXT STEP
+---------
+Feature Engineering for supervised and unsupervised learning.
